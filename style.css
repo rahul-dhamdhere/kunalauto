@@ -29,7 +29,7 @@ div h1{
 
 .logo-slider {
     display: flex;
-    animation: scroll 10s linear infinite;
+    animation: scroll 30s linear infinite;
 }
 
 .logo-slider img {
@@ -158,7 +158,7 @@ div h1{
         
     }
     #map{
-        margin-top: 150px;
+        margin-top: 300px;
     }
     #details{
         width: 100%;
