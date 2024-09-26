@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+}
+
+body {
+
+    background-color: #f7f7f7;
+}
+
+nav {
+    align-items : center;
+    height: 7vmax;
+}
+div h1{
+    font-size: 3vmax;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.logo-slider {
+    display: flex;
+    animation: scroll 10s linear infinite;
+}
+
+.logo-slider img {
+    width: 120px;  /* Adjust the width as per your needs */
+    height: 20px;
+    display: inline-block;
+}
+#navbar{
+   padding-right: 25px;
+   float: right;
+}
+
+#navbar DIV a{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 80%    ;
+}
+#Homepara{
+    text-align: center;
+    height: 450px;
+}
+#Homepara img{
+    height: 20vh;
+    width: 70vw;
+}
+#Homepara h1{
+    color: orange;
+}
+#Homepara h3{
+    margin-top: 10px;
+    font-size: 30px;
+}
+#shopnow{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px    
+}
+#shopnow a{
+    padding: 5px;
+    background-color: orange;
+    font-size: 34px;
+    border-radius: 10px;
+}
+
+#map{
+    width: 100%;
+}
+#map iframe{
+    border: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    margin-top: 150px;
+    margin-left: 20px;;
+    height: 500px;
+    width: 500px;
+}
+#map a{
+    margin-top: 150px;
+    margin-right:170px;
+    color: orange ;
+    text-align: center;
+}
+#map h4{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+}
+#details{
+    width: 60%;
+    margin-top: 350px;
+    justify-items: center;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-60%);
+    }
+}
+@media screen and (max-width: 1080px)
+{
+    nav img {
+        width: 30px;
+        height: 25px;
+    }
+     
+    #navbar{
+        visibility: hidden;
+        display: inline;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+        padding-right: 0px; 
+    }
+    #logo{
+       display: none;
+    }
+
+    #search{
+
+        float: right;
+        visibility: visible;
+        display: contents;
+    }
+    #HSA{
+        display: none;
+    }
+    #Homepara{
+        text-align: center;
+        height: 650px;
+        width: auto;
+        margin-top: 20px;
+    }
+    #Homepara h1{
+        text-align: center;
+        width: 100%;
+    }
+    #map iframe{
+        height: 300px;
+        width: 300px;
+        margin: 30px;
+    }
+    #map a{
+        text-align: center;
+        
+        margin-top: 15px;
+        
+    }
+    #details{
+        width: 100%;
+        float: center;
+        width: 60%;
+        margin-top: 25px;
+        justify-items: center;
+        margin-right: 75px;
+    }
+}
